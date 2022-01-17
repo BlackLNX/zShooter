@@ -1,28 +1,85 @@
 Roadmap:
 
 1. Spieler
-    Der Spieler (und Flüchtlinge s.u.) besitzt Characterattribute, die seine Begabung für Schusswaffen (Genauigkeit), Nahkampf (Geschindigkeit), Ausweichen (Chance dem Angriff zu entgehen) und Handwerk (Herstellung von Gebäuden und Waren) individuell festlegt in Punkten. Die lassen sich im Training langsam steigern. Der Spieler startet alleine wahlweise mit einem Messer oder einer Handfeuerwaffe und entsprechenden Begabungen.
+    Der Spieler (und Flüchtlinge s.u.) besitzt Characterattribute, die seine Begabung für
+    Schusswaffen (Genauigkeit), Nahkampf (Geschindigkeit), Ausweichen (Chance dem Angriff
+    zu entgehen) und Handwerk (Herstellung von Gebäuden und Waren) individuell festlegt
+    in Punkten. Die lassen sich im Training langsam steigern. Der Spieler startet alleine
+    wahlweise mit einem Messer oder einer Handfeuerwaffe und entsprechenden Begabungen.
 
 2. Welt
-    Die Spielwelt ist prozedual generiert und besteht aus Gebäuden (Plündern), Straßen (Bewegung), Gewässer (Blockarden) und Parks (Bewegung). Jedes Gebäude muss an einer Straße angrenzen, kann aber unterschiedliche Größen haben. Gebäude haben verschiedene Typen mit unterschiedlichen Antriffswahrscheinlichkeiten von Gegnern sowie unterschiedlicher Wahrscheinlichkeit Waren zu finden. In der Spielwelt bewegt man sich stehts nach Norden, Süden, Westen oder Osten durch Spieleraktion, dies kostet eine Zeiteinheit und man kann auf die zuvor verteilten Gegner treffen die einen dann angreifen. (Mehr dazu s.u.)
+    Die Spielwelt ist prozedual generiert und besteht aus Gebäuden (Plündern), Straßen
+    (Bewegung), Gewässer (Blockarden) und Parks (Bewegung). Jedes Gebäude muss an einer
+    Straße angrenzen, kann aber unterschiedliche Größen haben. Gebäude haben verschiedene
+    Typen mit unterschiedlichen Antriffswahrscheinlichkeiten von Gegnern sowie
+    unterschiedlicher Wahrscheinlichkeit Waren zu finden. In der Spielwelt bewegt man
+    sich stehts nach Norden, Süden, Westen oder Osten durch Spieleraktion, dies kostet
+    eine Zeiteinheit und man kann auf die zuvor verteilten Gegner treffen die einen dann
+    angreifen. (Mehr dazu s.u.)
     
 3. Waffen
-    Das Spiel kennt Nahkampfwaffen (Messer, Machete, Schwert, Axt), Schusswaffen (Pistole, Sturmgewehr, Schrotgewehr, Scharfschützengewehr) und leise Fernkampfwaffen (Bogen, Armbrust) die jeweils unterschiedliche Vor- und Nachteile haben. Nahkämpfer benötigen zwar keine knappe Munition können aber haben ein höheres Risiko im Kampf verwundet zu werden (s.u.), Fernkämpfern kann die Munition zwar ausgehen sind jedoch auf Distanz besser geschützt. Laute Waffen locken Gegner an, sind dafür präziser und tödlicher als leise Waffen. Im späteren Verlauf lässt sich nach Pfeilen und Bolzen die Schrotmunition als erstes herstellen. Die Munition der Gewehre ist speziell für diese Waffe.
+    Das Spiel kennt Nahkampfwaffen (Messer, Machete, Schwert, Axt), Schusswaffen (Pistole,
+    Sturmgewehr, Schrotgewehr, Scharfschützengewehr) und leise Fernkampfwaffen (Bogen,
+    Armbrust) die jeweils unterschiedliche Vor- und Nachteile haben. Nahkämpfer benötigen
+    zwar keine knappe Munition können aber haben ein höheres Risiko im Kampf verwundet
+    zu werden (s.u.), Fernkämpfern kann die Munition zwar ausgehen sind jedoch auf Distanz
+    besser geschützt. Laute Waffen locken Gegner an, sind dafür präziser und tödlicher
+    als leise Waffen. Im späteren Verlauf lässt sich nach Pfeilen und Bolzen die Schrot-
+    munition als erstes herstellen. Die Munition der Gewehre ist speziell für diese Waffe.
 
 4. Verwundung / Lebenspunkte
-    Das Spiel hat keine klassischen Lebenspunkte sondern einen Zähler "Verwundungen". Erreicht der Zähler im Kampf die 10 ist er verstorben. Außerhalb des Kampfes ist bei jeder Aktion die Chance dass der Character an den Verwundungen erliegt exponentiell proportional zu der Anzahl der Verwundungen. Verwundungen können durch ärztliche Versorgung schneller geheilt werden, ansonsten ist über Nacht nur eine Heilung von einem Verwundungspunkt möglich. Die Nacht ist dabei eine weitere Akktion in der der Character den Verwundungen erliegen kann. Das Verwenden von Verbandszeug (zum Mitnehmen) reduziert das Risiko der Verwundung zu erliegen um 50% genauso wie die ärztliche Versorgung.
+    Das Spiel hat keine klassischen Lebenspunkte sondern einen Zähler "Verwundungen".
+    Erreicht der Zähler im Kampf die 10 ist er verstorben. Außerhalb des Kampfes ist
+    bei jeder Aktion die Chance dass der Character an den Verwundungen erliegt
+    exponentiell proportional zu der Anzahl der Verwundungen. Verwundungen können
+    durch ärztliche Versorgung schneller geheilt werden, ansonsten ist über Nacht
+    nur eine Heilung von einem Verwundungspunkt möglich. Die Nacht ist dabei eine
+    weitere Akktion in der der Character den Verwundungen erliegen kann. Das Verwenden
+    von Verbandszeug (zum Mitnehmen) reduziert das Risiko der Verwundung zu erliegen
+    um 50% genauso wie die ärztliche Versorgung.
     
 5. Flüchtlinge
-    Der Spieler kann immer wieder auf andere Gruppen treffen. Einige Gruppen sind friedlich und schließen sich dem Spieler gerne an. Durch mehr Flüchtlinge kann der Spieler entweder die Basis (s.u.) aufbauen lassen, Teams organisieren die andere Gebiete selbst erkunden oder sein eigenes Team verstärken um mehr Feuerkraft zu haben. Nicht nur wegen den unterschiedlichen Begabungen ist es nicht immer sinnvoll alle Flüchtlinge in einem Team zu haben. Die Basis kann von weniger erschöpften Characteren besser verteidigt werden und auch weniger Einsatz von Schusswaffen lockt weniger Gegner an und verbraucht weniger Munition.
+    Der Spieler kann immer wieder auf andere Gruppen treffen. Einige Gruppen sind
+    friedlich und schließen sich dem Spieler gerne an. Durch mehr Flüchtlinge kann
+    der Spieler entweder die Basis (s.u.) aufbauen lassen, Teams organisieren die
+    andere Gebiete selbst erkunden oder sein eigenes Team verstärken um mehr Feuerkraft
+    zu haben. Nicht nur wegen den unterschiedlichen Begabungen ist es nicht immer
+    sinnvoll alle Flüchtlinge in einem Team zu haben. Die Basis kann von weniger
+    erschöpften Characteren besser verteidigt werden und auch weniger Einsatz von
+    Schusswaffen lockt weniger Gegner an und verbraucht weniger Munition.
 
 6. Basis
-    Die Basis kann immer weiter verstärkt werden. Am morgen eines Tages kann der Spieler die Aufgaben verteilen und entscheiden ob die Basis verstärkt werden soll oder man handwerklich die Basis ausbauen will um weniger von Ressourcen außerhalb angewiesen zu sein (Vorallem Nahrung). Am Ende des Tages bekommt der Spieler eine Zusammenfassung was die eingeteilten Teams getan (geschafft oder gescheitert) haben. Beim Eintritt der NAcht (anschließend) Bewegen sich die Gegner auf der Karte (s.u.)
+    Die Basis kann immer weiter verstärkt werden. Am morgen eines Tages kann der
+    Spieler die Aufgaben verteilen und entscheiden ob die Basis verstärkt werden
+    soll oder man handwerklich die Basis ausbauen will um weniger von Ressourcen
+    außerhalb angewiesen zu sein (Vorallem Nahrung). Am Ende des Tages bekommt der
+    Spieler eine Zusammenfassung was die eingeteilten Teams getan (geschafft oder
+    gescheitert) haben. Beim Eintritt der NAcht (anschließend) Bewegen sich die
+    Gegner auf der Karte (s.u.)
 
 7. Züge
-    Grundsätzlich ist das Spiel in Züge unterteilt. Eine Aktion auf der Karte kostet eine Zeiteinheit. Während des Kampfes kostet jede Phase eine Zeiteinheit. Sind die Zeiteinheiten des Spielers aufgebraucht werden mit jeder weiteren Aktion die Gegner stärker und es ist Wahrscheinlicher diesen zu begegnen (Anbruch der Nacht). In der Nacht (Übernachtung in der Basis) ziehen die Gegner richtung Lärmquellen zufällig schnell und es entstehen ab einem Umkreis um den Spieler neue Gegner. Es kann auch zu Nächtlichen Anriffen der Gegner kommen. Nach der Übernachtung werden die Punkte aufgefüllt.
+    Grundsätzlich ist das Spiel in Züge unterteilt. Eine Aktion auf der Karte
+    kostet eine Zeiteinheit. Während des Kampfes kostet jede Phase eine Zeiteinheit.
+    Sind die Zeiteinheiten des Spielers aufgebraucht werden mit jeder weiteren
+    Aktion die Gegner stärker und es ist Wahrscheinlicher diesen zu begegnen
+    (Anbruch der Nacht). In der Nacht (Übernachtung in der Basis) ziehen die Gegner
+    richtung Lärmquellen zufällig schnell und es entstehen ab einem Umkreis um den
+    Spieler neue Gegner. Es kann auch zu Nächtlichen Anriffen der Gegner kommen.
+    Nach der Übernachtung werden die Punkte aufgefüllt.
 
 8. Angriffe
-    Der Spieler ist in seiner Angriffsrolle weitgehend passiv. Bei feindlichen menschlichen Gruppen kann es vorkommen, dass ihm die entschiedung bleibt ob er auf die Gruppe zugeht weiß aber nciht ob diese Gruppe freundlich oder feindlich gesinnt ist. Ein Angriff verläuft in Phasen, wobei der Angreifer zu erst zieht. Die Figuren werden 5-10 Felder auseinander aufgestellt. Nahkämpfer gehen auf ein Ziel zu bis es in Reichweite ist und greifen es an. Fernkämpfer beschießen das näheste Ziel. Es ist keiner der beiden Seiten möglich hinter die erste Reihe der anderen Gruppe zu treten (1-Dimensional)
+    Der Spieler ist in seiner Angriffsrolle weitgehend passiv. Bei feindlichen
+    menschlichen Gruppen kann es vorkommen, dass ihm die entschiedung bleibt ob er
+    auf die Gruppe zugeht weiß aber nciht ob diese Gruppe freundlich oder feindlich
+    gesinnt ist. Ein Angriff verläuft in Phasen, wobei der Angreifer zu erst zieht.
+    Die Figuren werden 5-10 Felder auseinander aufgestellt. Nahkämpfer gehen auf
+    ein Ziel zu bis es in Reichweite ist und greifen es an. Fernkämpfer beschießen
+    das näheste Ziel. Es ist keiner der beiden Seiten möglich hinter die erste Reihe
+    der anderen Gruppe zu treten (1-Dimensional)
 
 9. Handwerk
-    Im späteren Verlauf kann der Spieler seine Leute einsetzen um Handwerk auszuüben und Nahrung anzubauen um die Lebensmittelkosten zu decken. Noch später kann er die Produktion von Munition beauftragen. Jeder Handwerker erhöht dabei am Ende des Tages den Technologielevel, der erforderlich ist um diese Errungenschaften zu erlangen und zu beauftragen.
+    Im späteren Verlauf kann der Spieler seine Leute einsetzen um Handwerk auszuüben
+    und Nahrung anzubauen um die Lebensmittelkosten zu decken. Noch später kann er
+    die Produktion von Munition beauftragen. Jeder Handwerker erhöht dabei am Ende
+    des Tages den Technologielevel, der erforderlich ist um diese Errungenschaften
+    zu erlangen und zu beauftragen.
