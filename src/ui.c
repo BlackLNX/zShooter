@@ -13,9 +13,43 @@ void clear() {
 }
 
 
+
+//UPDATE SCREEN-DIMENSIONS:
+void resize() {
+
+}
+
+
+
 // SHOW TEXT SLOWLY:
 void prints(char* text) {
-    printf(text);
+    int l = 0;
+    #ifdef linux
+    //printf("\e[?25l");
+    #endif
+    while (*text != 0) {
+        if ((*text == ' ') && (l > w - 20)) {
+            printf(_NEWLINE);
+            usleep(10000);
+            l = 0;
+        } else if (*text == '\n') {
+            printf(_NEWLINE);
+            usleep(50000);
+            l = 0;
+        } else {
+            printf("%c", *text);
+            usleep(10000);
+            l++;
+        }
+        fflush(stdout);
+        text++;
+    }
+    usleep(100000);
+    #ifdef linux
+    //printf("\e[?25h");
+    #endif
+    printf(_NEWLINE);
+    fflush(stdout);
 }
 
 
